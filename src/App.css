@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1570917747268-d5f1d58fe631'); /* Background Image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  backdrop-filter: blur(10px); /* Add blur effect to content */
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.card {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.input-field, .select {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus, .select:focus {
+  border-color: #ff7e5f;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #ff7e5f;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #feb47b;
+  transform: translateY(-3px);
+}
+
+.bmi-result {
+  padding: 15px;
+  background-color: #ffeb3b;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.loading {
+  color: #ff9800;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.tips-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tips-list li {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.random-tip-card {
+  margin-top: 20px;
+}
+
+.random-tip {
+  padding: 15px;
+  background-color: #ffeb3b;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+}
