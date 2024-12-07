@@ -1,6 +1,7 @@
 ## Flexi Project
 
-This is a BMI calculator that helps user's get their bmi while giving them exercise pr diet tips.
+This is a BMI calculator that helps user's get their bmi while giving them exercise pr diet tips. You can view the deplpyedproject here :
+https://flexiproject-q0df.onrender.com/
 
 
 ## Installation
