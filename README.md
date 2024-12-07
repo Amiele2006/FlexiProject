@@ -15,14 +15,13 @@ Instructions for installing your project and getting it set up locally. Example:
 
 ## Usage
 
-How to use the project after installation. Provide code examples or commands here.
+How to use the project after installation.
 
 ```bash
-npm start
+yarn start
 ```
 
 ## More Details
-Depending on your project, you can include additional sections like:
 
 - **Features**: BMI calculator and Exercise Tips
 - **Technologies Used**: React 
